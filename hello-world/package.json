@@ -1,0 +1,17 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "marp:s01:p": "marp ./sandbox01.md -p",
+    "marp:s01:h": "marp ./sandbox01.md  -o ../docs/hello-world/sandbox01.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.1.2"
+  }
+}
